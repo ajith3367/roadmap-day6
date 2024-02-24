@@ -1,0 +1,11 @@
+const countries = [
+  { name: "Country1", capital: "Capital1", flag: "Flag1.jpg" },
+  { name: "Country2", capital: "Capital2", flag: "Flag2.jpg" },
+  { name: "Country3", capital: "Capital3", flag: "Flag3.jpg" },
+];
+
+countries.forEach((country) => {
+  console.log(`Name: ${country.name}`);
+  console.log(`Capital: ${country.capital}`);
+  console.log(`Flag: ${country.flag}`);
+});

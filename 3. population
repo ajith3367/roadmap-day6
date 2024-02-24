@@ -1,0 +1,11 @@
+const countries = [
+  { name: "Country1", population: 150000 },
+  { name: "Country2", population: 1207361 },
+  { name: "Country3", population: 180000 },
+];
+
+const lowPopulationCountries = countries.filter(
+  (country) => country.population < 200000
+);
+
+console.log(lowPopulationCountries);

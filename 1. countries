@@ -1,0 +1,9 @@
+const countries = [
+  { name: "Country1", region: "Asia" },
+  { name: "Country2", region: "Europe" },
+  { name: "Country3", region: "Asia" },
+];
+
+const asiaCountries = countries.filter((country) => country.region === "Asia");
+
+console.log(asiaCountries);

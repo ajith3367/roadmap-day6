@@ -1,0 +1,14 @@
+const countries = [
+  { name: "Country1", currencies: ["USD"] },
+  { name: "Country2", currencies: ["EUR", "USD"] },
+  { name: "Country3", currencies: ["JPY"] },
+];
+
+const usDollarCountries = countries.filter((country) =>
+  country.currencies.includes("USD")
+);
+
+console.log("Countries that use US Dollars:");
+usDollarCountries.forEach((country) => {
+  console.log(country.name);
+});

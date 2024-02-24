@@ -1,0 +1,7 @@
+const averagePopulationPerCountry = 500000;
+
+const totalCountries = 250;
+
+const totalPopulation = averagePopulationPerCountry * totalCountries;
+
+console.log(`Total Population: ${totalPopulation}`);
